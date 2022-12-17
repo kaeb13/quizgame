@@ -134,7 +134,7 @@ function checkAns3() {
     score++;
     question.innerHTML = "<span style='color: green;'>Your Score: " + score + "</span>";
     answerInput.remove();
-    btn.innerHTML = "start again";
+    btn.innerHTML = "start over";
     btn.style.background = "#ff2626";
     answerInput.value = "";
     btn.style.color = "white";
@@ -145,7 +145,7 @@ function checkAns3() {
     answerInput.remove();
    
     btn.innerHTML = "start again";
-    btn.style.background = "#ff2626";
+    btn.style.background = "#E7625F";
     btn.style.color = "white";
     btn.style.textTransform = "uppercase";
     btn.onclick = function() { game() };
