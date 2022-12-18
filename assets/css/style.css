@@ -62,3 +62,34 @@ input {
     }
 }  
 }
+
+ /* inlog */ 
+
+  /* Add a black background color to the top navigation */
+  .top-nav {
+    background-color: #f2c75c; 
+    overflow: hidden;
+    color: #1b365d;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .top-nav a {
+    float: left;
+    color:  #1b365d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .top-nav a:hover {
+    background-color: #1b365d;
+    color: #f2c75c; 
+  }
+  
+  /* Add a color to the active/current link */
+  .top-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
