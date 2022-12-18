@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 
 // Create questions - and answers
 var q_a = document.querySelector(".q-a");
@@ -20,15 +21,17 @@ function game() {
     q_a.appendChild(document.createElement("br"));
     q_a.appendChild(btn);
     btn.innerHTML = "submit";
-    btn.setAttribute("style", `font-size: 24px; background-color: #E7625F; cursor: pointer;
-       color: white;
+    btn.setAttribute("style", 
+      `font-size: 24px; background-color: #ff4c4c; 
+       cursor: pointer;
+       color: #ffff;
        padding: 5px;
        border-radius: 3px;
-       border: 1px solid #ffff;
+       border: 1px solid white;
        text-transform: uppercase;`);
 
     // answer check and continue // 
-    btn.onclick = function() { checkAns1(); }
+    btn.onclick = function() { checkAns1(); };
 
     function checkAns1() {
       var answerInput = document.getElementById("answer-input");
@@ -42,14 +45,14 @@ function game() {
         question.innerHTML = "What is the capital of Sweden?";
         answer.setAttribute("answer", "stockholm");
         answer.setAttribute("second-answer", "Stockholm");
-        btn.onclick = function() { checkAns2(); } 
+        btn.onclick = function() { checkAns2(); } ;
       } else {
         alert("Incorrect answer.");
         answerInput.value = "";
         question.innerHTML = "What is the capital of Sweden?";
         answer.setAttribute("answer", "stockholm");
         answer.setAttribute("second-answer", "Stockholm");
-        btn.onclick = function() { checkAns2(); } 
+        btn.onclick = function() { checkAns2(); } ;
       }
     }
     
@@ -65,14 +68,14 @@ function game() {
     question.innerHTML = "In which month do you celebrate swedish midsummer?";
     answer.setAttribute("answer", "june");
     answer.setAttribute("second-answer", "June");
-    btn.onclick = function() { checkAns3(); } 
+    btn.onclick = function() { checkAns3(); } ;
   } else {
     alert("Incorrect answer.");
     answerInput.value = "";
     question.innerHTML = "In which month do you celebrate swedish midsummer?";
     answer.setAttribute("answer", "june");
     answer.setAttribute("second-answer", "June");
-    btn.onclick = function() { checkAns3(); } 
+    btn.onclick = function() { checkAns3(); } ;
   }
 }
   
@@ -89,14 +92,14 @@ function checkAns3() {
       question.innerHTML =  "What is the Swedish world-famous furniture making company called?";
       answer.setAttribute("answer", "ikea");
       answer.setAttribute("second-answer", "");
-      btn.onclick = function() { checkAns4(); } 
+      btn.onclick = function() { checkAns4(); } ;
     } else {
       alert("Incorrect answer.");
       answerInput.value = "";
       question.innerHTML = "What is the Swedish world-famous furniture making company called?";
       answer.setAttribute("answer", "ikea");
       answer.setAttribute("second-answer", "");
-      btn.onclick = function() { checkAns4(); } 
+      btn.onclick = function() { checkAns4(); } ;
     }
   }
   
@@ -113,7 +116,7 @@ function checkAns3() {
       question.innerHTML = " What is the colour of the cross on the Swedish flag?";
       answer.setAttribute("answer", "yellow");
       answer.setAttribute("second-answer", "");
-      btn.onclick = function() { checkAns5(); }
+      btn.onclick = function() { checkAns5(); };
     } else {
   
       alert("Incorrect answer.");
@@ -121,7 +124,7 @@ function checkAns3() {
       question.innerHTML = " What is the colour of the cross on the Swedish flag?";
       answer.setAttribute("answer", "yellow");
       answer.setAttribute("second-answer", "");
-      btn.onclick = function() { checkAns5(); }
+      btn.onclick = function() { checkAns5(); } ;
     }
   }
   function checkAns5() {
@@ -139,7 +142,7 @@ function checkAns3() {
     answerInput.value = "";
     btn.style.color = "white";
     btn.style.textTransform = "uppercase";
-    btn.onclick = function() { game() };
+    btn.onclick = function() { game() ;} ;
   } else {
     alert("Incorrect answer.");
     answerInput.remove();
@@ -148,7 +151,7 @@ function checkAns3() {
     btn.style.background = "#E7625F";
     btn.style.color = "white";
     btn.style.textTransform = "uppercase";
-    btn.onclick = function() { game() };
+    btn.onclick = function() { game() ;};
     question.innerHTML = "<span style='font-family: Lucida Console;'>Your Score: " + score + "</span>";
   }
 }
