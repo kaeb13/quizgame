@@ -1,108 +1,53 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Quizgame 
 
-Welcome kaeb13,
+#The Swedish Trivia is a short fun quiz for users to get a short break in their everyday life. Maybe during their work break with their colleagues?
+the trivia quiz is for young grown-ups with little or no knowledge about Sweden. 
+<img width="1085" alt="amiresponsivequiz" src="https://user-images.githubusercontent.com/117651816/208406002-a4bab8b8-449a-460d-82e1-709b36f3e03f.png">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+* at the top of the page you can use a small navigation bar with a login feature and a direct link to the home page. The bar is easy to locate and has a hoover function for the user to understand when the links are being pressed.
+* The main function of the site is the actual trivia quiz. It's set in the middle of the page on the homepage. When the user submits the correct answer an alert window pops up to give feedback to the user about this. A window also pops up when the user types in an incorrect answer.
+* When the quiz is finalized the user takes part in a score for the quiz.
+* After name registration the user is directed to a thank you page with a button where the user easily can access the home page with the quiz. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Bugs 
+* When I started to build the quiz site I wanted to build a monkey with code in JS. I followed a tutorial for this but failed and failed to complete this. Due to time limitations, I had to let this idea go. The monkey did not appear on the page. 
 
-`python3 -m http.server`
+## Validator testing 
 
-A blue button should appear to click: _Make Public_,
+<img width="919" alt="print screen accessibility" src="https://user-images.githubusercontent.com/117651816/208402954-2c69e3fc-743a-4e8a-a681-2f7abe99dc38.png">
 
-Another blue button should appear to click: _Open Browser_.
+* HTML had an error in using the anchor element as a descendent of a button element. Had trouble fixing this. The Solution was to use onclick with a href inside of it. Used https://validator.w3.org/#validate_by_input.
+* CSS had no error. Used https://jigsaw.w3.org/css-validator/
+* Javascript had errors due to missing semicolons at several lines. This was corrected. The code also had an error due to that JShint didn't support the used version. This was solved with: /*jshint esversion: 6 */. 
+Used https://jshint.com/ 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Unfixed bugs 
+* no unfixed bugs. 
 
-A blue button should appear to click: _Make Public_,
+## Deployment 
+* The site was deployed to GitHub pages. The deploy on GitHub you follow these steps: 
+* Enter your repository in GitHub- when there press the settings tab. Navigate to the page's category. When there- use the drop-down menu and choose the main branch. After doing this, it takes a few minutes- when GitHub has finalized the page a link will be provided. 
 
-Another blue button should appear to click: _Open Browser_.
+Live link: https://kaeb13.github.io/quizgame/
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Credits 
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* Thank you for
+https://www.youtube.com/watch?v=HfEcdPWTcvs&list=PLjBo-3nd7Mx4f2fsW6hb6fbFxKSNVPQft&index=1&ab_channel=CodingwithRumaysa 
+* For a structure with quiz code, followed this tutorial.
+https://www.youtube.com/watch?v=w9GNyw8AvlM&ab_channel=BroCode
+* for user inlog page. 
+https://htmlcolorcodes.com/color-picker/
+https://www.funtrivia.com/en/Geography/Sweden-3858.html
+* for help with some of the questions. 
+http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000
+* for help using colors that helped with the site's accessibility. 
+https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.sitepoint.com/community/t/why-wont-my-text-decoration-go-away/4674
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+https://www.codegrepper.com/tpc/%27template+literal+syntax%27+is+only+available+in+es6+%28use+%27esversion%3A+6%27%29.
