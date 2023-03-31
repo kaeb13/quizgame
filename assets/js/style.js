@@ -126,22 +126,24 @@ const users = ['Alice', 'Bob', 'Charlie', 'Dave', 'Eve', 'Frank', 'Grace', 'Henr
 const scores = [];
 
 for (let i = 0; i < users.length; i++) {
-    scores.push(Math.floor(Math.random() * 10));
+    scores.push(Math.floor(Math.random() * 5));
 }
 
 const scoreboard = document.getElementById('scoreboard');
-for (let i = 0; i < users.length; i++) {
-    const row = document.createElement('tr');
-    const rank = document.createElement('td');
-    rank.innerText = i + 1;
-    const username = document.createElement('td');
-    username.innerText = users[i];
-    const score = document.createElement('td');
-    score.innerText = scores[i];
-    row.appendChild(rank);
-    row.appendChild(username);
-    row.appendChild(score);
-   
+if (scoreboard) {
+    for (let i = 0; i < users.length; i++) {
+        const row = document.createElement('tr');
+        const rank = document.createElement('td');
+        rank.innerText = i + 1;
+        const username = document.createElement('td');
+        username.innerText = users[i];
+        const score = document.createElement('td');
+        score.innerText = scores[i];
+        row.appendChild(rank);
+        row.appendChild(username);
+        row.appendChild(score);
+        scoreboard.appendChild(row);
+    }
 }
     
 
