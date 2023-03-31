@@ -123,7 +123,7 @@ const users = ['Alice', 'Bob', 'Charlie', 'Dave', 'Eve', 'Frank', 'Grace', 'Henr
 const scores = [];
 
 for (let i = 0; i < users.length; i++) {
-    scores.push(Math.floor(Math.random() * 1000));
+    scores.push(Math.floor(Math.random() * 10));
 }
 
 const scoreboard = document.getElementById('scoreboard');

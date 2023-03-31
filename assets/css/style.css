@@ -54,6 +54,31 @@ h2 {
 .start-quiz-btn:hover {
   background-color: #e83a3a;
 }
+
+/* SCORE PAGE */ 
+
+.scoretable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#fe019a; 
+}
+
+#scoreboard {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#scoreboard th, #scoreboard td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#scoreboard th {
+  text-align: center;
+}
+
 /* QUIZ */ 
 .q-a {
    
@@ -143,7 +168,7 @@ input {
   background-color: #fe019a;
 }
   
-/* style to submit-buttom */ 
+/* STYLE TO SUBMIT BUTTON*/ 
 
 #myButton  {
     font-size: 24px; 
@@ -161,6 +186,8 @@ input {
 a,  button {
    text-decoration: none;
 }
+
+/* LOGGED IN PAGE */ 
 
 .yourloggedin h1 {
    color: #fe019a;
