@@ -90,4 +90,62 @@ function displayScore() {
     btn.onclick = function () { game(); };
 }
 
+/* for user to see if logged in*/ 
+
+function checkLoggedInUser() {
+    const loggedInUser = localStorage.getItem("username");
+    if (loggedInUser) {
+      const loggedInUserDiv = document.getElementById("logged-in-user");
+      loggedInUserDiv.innerHTML = `Logged in as: ${loggedInUser}`;
+    }
+  }
+
+function submitForm() {
+    const username = document.getElementById('username').value;
+    if (username.trim() !== '') {
+        localStorage.setItem('username', username);
+        location.href = 'thankyouforlogin.html';
+    } else {
+        alert('Please enter your name.');
+    }
+}
+
+function loginPage() {
+    const submitButton = document.getElementById("submitButton");
+    if (submitButton) {
+        submitButton.addEventListener("click", submitForm);
+    }
+}
+
+/* FAKE SCORE PAGE */ 
+
+const users = ['Alice', 'Bob', 'Charlie', 'Dave', 'Eve', 'Frank', 'Grace', 'Henry', 'Ivy', 'Jack', 'Kate', 'Larry', 'Mallory', 'Nancy', 'Oscar', 'Peggy', 'Quincy', 'Rita', 'Steve', 'Tina', 'Victor', 'Wendy', 'Xander', 'Yvonne', 'Zoe'];
+const scores = [];
+
+for (let i = 0; i < users.length; i++) {
+    scores.push(Math.floor(Math.random() * 1000));
+}
+
+const scoreboard = document.getElementById('scoreboard');
+for (let i = 0; i < users.length; i++) {
+    const row = document.createElement('tr');
+    const rank = document.createElement('td');
+    rank.innerText = i + 1;
+    const username = document.createElement('td');
+    username.innerText = users[i];
+    const score = document.createElement('td');
+    score.innerText = scores[i];
+    row.appendChild(rank);
+    row.appendChild(username);
+    row.appendChild(score);
+    scoreboard.appendChild(row);
+}
+
 game();
+checkLoggedInUser();
+loginPage()
+
+document.addEventListener("DOMContentLoaded", function() {
+    checkLoggedInUser();
+document.getElementById("submitButton").addEventListener("click", submitForm);
+});
