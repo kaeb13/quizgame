@@ -149,9 +149,11 @@ if (scoreboard) {
 
 game();
 checkLoggedInUser();
-loginPage()
+loginPage();
 
 document.addEventListener("DOMContentLoaded", function() {
     checkLoggedInUser();
 document.getElementById("submitButton").addEventListener("click", submitForm);
 });
+
+/* Passed Jshint with no errors */ 
