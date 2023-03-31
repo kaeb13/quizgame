@@ -64,18 +64,18 @@ h2 {
   color:#fe019a; 
 }
 
-#scoreboard {
+#scoreboardforcss{
   margin-top: 20px;
   width: 100%;
   border-collapse: collapse;
 }
 
-#scoreboard th, #scoreboard td {
+#scoreboardforcss th, #scoreboardforcss td {
   padding: 10px;
   border: 1px solid black;
 }
 
-#scoreboard th {
+#scoreboardforcss th {
   text-align: center;
 }
 
@@ -159,7 +159,7 @@ input {
 .top-nav ul li a {
   text-decoration: none;
   color: #fe019a;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Lato', sans-serif; 
 }
 
@@ -188,12 +188,48 @@ a,  button {
 }
 
 /* LOGGED IN PAGE */ 
-
-.yourloggedin h1 {
-   color: #fe019a;
-   margin: auto;
-   width: 50%; 
-   padding: 10px;  
-   border-radius: 1%; 
+.loginform {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 90%;
+  font-size: 1.2em;
 }
 
+.loginform label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fe019a;
+}
+
+.loginform input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+}
+
+#submitButton {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  background-color: #ff4c4c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}

@@ -85,7 +85,10 @@ function checkAnswer() {
 }
 
 function displayScore() {
-    question.innerHTML = "<span style='color: green;'>Your Score: " + score + "</span>";
+    const scoreResult = document.createElement("div");
+    scoreResult.innerHTML = "<span style='color: green;'>Your Score: " + score + "</span>";
+    q_a.appendChild(scoreResult);
+    
     btn.innerHTML = "Start over";
     btn.onclick = function () { game(); };
 }
@@ -138,8 +141,9 @@ for (let i = 0; i < users.length; i++) {
     row.appendChild(rank);
     row.appendChild(username);
     row.appendChild(score);
-    scoreboard.appendChild(row);
+   
 }
+    
 
 game();
 checkLoggedInUser();
