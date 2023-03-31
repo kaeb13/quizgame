@@ -4,6 +4,7 @@ const q_a = document.querySelector(".q-a");
 const question = document.createElement("h1");
 let score = 0;
 const btn = document.createElement("button");
+btn.style.fontFamily = "'Press Start 2P', cursive";
 
 const questions = [
     {
@@ -50,13 +51,16 @@ function displayQuestion() {
 
         btn.innerHTML = "Submit";
         btn.setAttribute("style",
-            `font-size: 24px; background-color: #ff4c4c;
+            `font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
+            background-color: #ff4c4c;
             cursor: pointer;
             color: #ffff;
             padding: 5px;
             border-radius: 3px;
             border: 1px solid white;
             text-transform: uppercase;`);
+            btn.className = "submit-button";
         q_a.appendChild(btn);
 
         btn.onclick = function () { checkAnswer(); };
