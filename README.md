@@ -28,14 +28,15 @@ Below the introductory text, users will find a pixelated "Start the Quiz" button
 <img width="390" alt="loggedinpageloggedinas" src="https://user-images.githubusercontent.com/117651816/229278842-1c7c0247-fd5e-44b1-8904-333a5843b597.png">
 
 ### Quiz Page 
-<img width="1083" alt="quizpagestartpage" src="https://user-images.githubusercontent.com/117651816/229280472-137105b7-2ac4-43c7-a3bb-55891d558268.png">
-<img width="471" alt="wronganswerquiz" src="https://user-images.githubusercontent.com/117651816/229280508-8f310f9e-a7dc-4ef9-b6ec-b7bb02bd4f71.png">
-<img width="408" alt="rightanswerquiz" src="https://user-images.githubusercontent.com/117651816/229280533-b6be9d94-8499-4c9b-b689-e30482079fc7.png">
-<img width="552" alt="scorequizresult" src="https://user-images.githubusercontent.com/117651816/229280544-fb70f6e3-558e-4bd2-9852-950d5e3ff70b.png">
 
 The quiz page features an input field where users can type their answers. To ensure that answers are not case-sensitive, all responses are automatically converted to lowercase before evaluation. After submitting an answer, users receive immediate feedback, indicating whether their response was correct or incorrect.
 
 Once all questions have been answered, the user's total score is displayed below a "Start Over" button. Clicking this button allows users to retake the quiz, offering endless opportunities to test their knowledge of 80s TV series and improve their score.
+
+<img width="1083" alt="quizpagestartpage" src="https://user-images.githubusercontent.com/117651816/229280472-137105b7-2ac4-43c7-a3bb-55891d558268.png">
+<img width="471" alt="wronganswerquiz" src="https://user-images.githubusercontent.com/117651816/229280508-8f310f9e-a7dc-4ef9-b6ec-b7bb02bd4f71.png">
+<img width="408" alt="rightanswerquiz" src="https://user-images.githubusercontent.com/117651816/229280533-b6be9d94-8499-4c9b-b689-e30482079fc7.png">
+<img width="552" alt="scorequizresult" src="https://user-images.githubusercontent.com/117651816/229280544-fb70f6e3-558e-4bd2-9852-950d5e3ff70b.png">
 
 ### Score Page (Fictive)
 
