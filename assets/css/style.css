@@ -169,6 +169,20 @@ input {
   color: #000000;
   background-color: #fe019a;
 }
+
+/*MEDIA QUERY TO NAVBAR */ 
+
+
+@media (min-width: 319px) and (max-width: 321px) {
+  .top-nav ul li a {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  #logged-in-user {
+    font-size: 14px;
+  }
+}
   
 /* STYLE TO SUBMIT BUTTON*/ 
 
