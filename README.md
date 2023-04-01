@@ -8,7 +8,7 @@
 - Interactive user interface with responsive design for various screen sizes.
 - Login functionality to save user information.
 - Scoring system to track user performance.
-- Scoreboard page showcasing top performers.
+- Fictive Scoreboard page showcasing top performers.
 
 ### Home Page
 
