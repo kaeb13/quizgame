@@ -116,22 +116,22 @@ You can visit the live site at the following link: [8Quiz](https://kaeb13.github
 
 ## Credits 
 
-Thank you for
+Thank you for:
+* For a structure with quiz code, followed this tutorial.
 https://www.youtube.com/watch?v=HfEcdPWTcvs&list=PLjBo-3nd7Mx4f2fsW6hb6fbFxKSNVPQft&index=1&ab_channel=CodingwithRumaysa 
-For a structure with quiz code, followed this tutorial.
+* for user inlog page. 
 https://www.youtube.com/watch?v=w9GNyw8AvlM&ab_channel=BroCode
-for user inlog page. 
+* for help using colors that helped with the site's accessibility. 
 https://htmlcolorcodes.com/color-picker/
 https://www.google.com/search?q=80s+tv+shows&oq=80s+tv+shows+&aqs=chrome..69i57j0i512l9.6744j0j7&sourceid=chrome&ie=UTF-8
 q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000
-for help using colors that helped with the site's accessibility. 
 https://www.w3schools.com/css/css_align.asp
 https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 https://www.w3schools.com/howto/howto_js_topnav.asp
 https://www.sitepoint.com/community/t/why-wont-my-text-decoration-go-away/4674
 https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
 https://www.codegrepper.com/tpc/%27template+literal+syntax%27+is+only+available+in+es6+%28use+%27esversion%3A+6%27%29.
-for picture to the site
+* for pictures to the site
 https://www.pexels.com/photo/classic-yellow-tv-6976103/
-to make the picture smaller 
+* to make the picture smaller 
 https://tinypng.com/
