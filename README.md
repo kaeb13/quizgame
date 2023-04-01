@@ -1,53 +1,119 @@
-## Quizgame 
+## 80s Tv Series Quiz 
 
-#The Swedish Trivia is a short fun quiz for users to get a short break in their everyday life. Maybe during their work break with their colleagues?
-the trivia quiz is for young grown-ups with little or no knowledge about Sweden. 
-<img width="1085" alt="amiresponsivequiz" src="https://user-images.githubusercontent.com/117651816/208406002-a4bab8b8-449a-460d-82e1-709b36f3e03f.png">
+<img width="1078" alt="printscreenesponsivequiz" src="https://user-images.githubusercontent.com/117651816/229277521-158e9775-7b69-49ab-9447-2523a196e526.png">
 
-## Features 
+## Features
 
-* at the top of the page you can use a small navigation bar with a login feature and a direct link to the home page. The bar is easy to locate and has a hoover function for the user to understand when the links are being pressed.
-* The main function of the site is the actual trivia quiz. It's set in the middle of the page on the homepage. When the user submits the correct answer an alert window pops up to give feedback to the user about this. A window also pops up when the user types in an incorrect answer.
-* When the quiz is finalized the user takes part in a score for the quiz.
-* After name registration the user is directed to a thank you page with a button where the user easily can access the home page with the quiz. 
+- A quiz featuring questions about classic 80s TV series.
+- Interactive user interface with responsive design for various screen sizes.
+- Login functionality to save user information.
+- Scoring system to track user performance.
+- Scoreboard page showcasing top performers.
+
+### Home Page
+
+<img width="1078" alt="Homepagequiz" src="https://user-images.githubusercontent.com/117651816/229278286-d5c50939-d8b5-4b50-a8a5-7fb98609bd26.png">
+
+The homepage provides an engaging introduction to the 80s TV Series Quiz. It features a brief description of the quiz, setting the stage for users to take a nostalgic trip back to the era of unforgettable television shows. The design captures the essence of the 80s, from its vibrant colors to its iconic imagery.
+
+Below the introductory text, users will find a pixelated "Start the Quiz" button that invites them to dive into the world of 80s TV series. Clicking on the button will take users directly to the quiz page, where they can begin testing their knowledge of classic television series from this iconic decade.
+
+### Login Page 
+
+<img width="450" alt="loginpagequiz" src="https://user-images.githubusercontent.com/117651816/229278787-2d3df244-3f9a-4bd5-aa39-424700fbacd2.png">
+
+<img width="410" alt="loginstartthequiz" src="https://user-images.githubusercontent.com/117651816/229278794-9dca7808-ef8a-4976-8479-baa37b2a3b06.png">
+
+<img width="390" alt="loggedinpageloggedinas" src="https://user-images.githubusercontent.com/117651816/229278842-1c7c0247-fd5e-44b1-8904-333a5843b597.png">
+
+### Quiz Page 
+<img width="1280" alt="quizpagestart" src="https://user-images.githubusercontent.com/117651816/229279204-70c62882-4c23-4037-a992-cbb7f53eb26a.png">
+
+<img width="1280" alt="quizpagewrong" src="https://user-images.githubusercontent.com/117651816/229279211-f30f8397-670f-4e94-9650-0218fb8ba9d1.png">
+<img width="1280" alt="quizpageright" src="https://user-images.githubusercontent.com/117651816/229279220-56d006ab-5499-4991-8a2a-b00536b3e21f.png">
+<img width="1280" alt="quizpagepoints" src="https://user-images.githubusercontent.com/117651816/229279232-7ee02e75-f092-490a-b99f-ea005b683e61.png">
+
+The quiz page features an input field where users can type their answers. To ensure that answers are not case-sensitive, all responses are automatically converted to lowercase before evaluation. After submitting an answer, users receive immediate feedback, indicating whether their response was correct or incorrect.
+
+Once all questions have been answered, the user's total score is displayed below a "Start Over" button. Clicking this button allows users to retake the quiz, offering endless opportunities to test their knowledge of 80s TV series and improve their score.
+
+### Score Page (Fictive)
+
+Please note that the current score page is fictive and does not display actual user scores. However, in the long run, this page could be developed further to record and display real user scores, offering a more engaging and competitive experience for players.
+
+The score page is generated using JavaScript. It creates a list of random user names and scores for demonstration purposes. 
+
+<img width="593" alt="scorepagequiz" src="https://user-images.githubusercontent.com/117651816/229279477-53bea5c7-456c-4d35-bde5-736c3b0c60e8.png">
+
+## No Current Bugs
+
+I'm  happy to report that there are no known bugs on the website at the moment. During the development process, I've faced a significant challenge with the code for the scoreboard, which affected the quiz on the quizpage. However, after thorough testing and debugging, we successfully resolved the issue.
 
 
-## Bugs 
-* When I started to build the quiz site I wanted to build a monkey with code in JS. I followed a tutorial for this but failed and failed to complete this. Due to time limitations, I had to let this idea go. The monkey did not appear on the page. 
+## Validator Testing
 
-## Validator testing 
+I've rigorously tested all our code using the W3C HTML and CSS Validator services, as well as JSHint for JavaScript. These tools help ensure the quality and conformity of our code to industry standards. We are pleased to report that there are no issues with our code, and it passed all the tests successfully.
 
-<img width="919" alt="print screen accessibility" src="https://user-images.githubusercontent.com/117651816/208402954-2c69e3fc-743a-4e8a-a681-2f7abe99dc38.png">
+This level of validation provides confidence in the stability and performance of our website, as well as ensuring compatibility across various browsers and devices. We strive to maintain this high standard of code quality as we continue to develop and enhance our project.
 
-* HTML had an error in using the anchor element as a descendent of a button element. Had trouble fixing this. The Solution was to use onclick with a href inside of it. Used https://validator.w3.org/#validate_by_input.
-* CSS had no error. Used https://jigsaw.w3.org/css-validator/
-* Javascript had errors due to missing semicolons at several lines. This was corrected. The code also had an error due to that JShint didn't support the used version. This was solved with: /*jshint esversion: 6 */. 
-Used https://jshint.com/ 
+## Lighthouse Report
 
-## Unfixed bugs 
-* no unfixed bugs. 
+I've analyzed the website using Google Lighthouse, an open-source tool that provides insights and recommendations for improving the quality of web pages. Our Lighthouse report has helped us ensure that our website is optimized for performance, accessibility, best practices, and SEO.
 
-## Deployment 
-* The site was deployed to GitHub pages. The deploy on GitHub you follow these steps: 
-* Enter your repository in GitHub- when there press the settings tab. Navigate to the page's category. When there- use the drop-down menu and choose the main branch. After doing this, it takes a few minutes- when GitHub has finalized the page a link will be provided. 
+The website has achieved the following Lighthouse scores:
 
-Live link: https://kaeb13.github.io/quizgame/
+- Performance: 99
+- Accessibility: 95
+- Best Practices: 92
+- SEO: 90
+- PWA: 99
+
+I've implemented various recommendations from the Lighthouse report to enhance the user experience, such as optimizing images, minifying CSS and JavaScript files, and improving the website's overall accessibility.
+
+By regularly reviewing the Lighthouse reports, I aim to maintain and improve the website's quality and performance, ensuring an excellent experience for all users.
+
+<img width="725" alt="lighthousequiz" src="https://user-images.githubusercontent.com/117651816/229279933-86f58f30-f683-4da0-b544-ad09701159a6.png">
+
+
+## Bug Testing and Cross-Browser Compatibility
+
+I've thoroughly tested the website to ensure that there are no unfixed bugs, and I've strive to maintain a seamless user experience. I addressed all known issues, and will continue to monitor the website to identify and resolve any potential problems.
+
+In addition to bug testing, I've also verified the website's cross-browser compatibility. The site has been tested and confirmed to work smoothly on various web browsers, including Google Chrome, Safari, and Firefox. This ensures that users on different platforms and devices can access and enjoy the website without encountering issues.
+
+By continuously testing for bugs and cross-browser compatibility, I aim to provide a reliable and enjoyable experience for all users, regardless of their choice of browser.
+
+
+## Deployment
+
+The site was successfully deployed to GitHub Pages by following these steps:
+
+1. Enter your repository on GitHub and click on the "Settings" tab.
+2. Navigate to the "Pages" category.
+3. In the "Source" section, use the drop-down menu and select the main branch as the source.
+4. After selecting the main branch, the site deployment process begins. It may take a few minutes for GitHub to finalize the deployment.
+5. Once the deployment is complete, a link to the live site will be provided.
+
+You can visit the live site at the following link: [8Quiz](https://kaeb13.github.io/quizgame/)
 
 ## Credits 
 
-* Thank you for
+Thank you for
 https://www.youtube.com/watch?v=HfEcdPWTcvs&list=PLjBo-3nd7Mx4f2fsW6hb6fbFxKSNVPQft&index=1&ab_channel=CodingwithRumaysa 
-* For a structure with quiz code, followed this tutorial.
+For a structure with quiz code, followed this tutorial.
 https://www.youtube.com/watch?v=w9GNyw8AvlM&ab_channel=BroCode
-* for user inlog page. 
+for user inlog page. 
 https://htmlcolorcodes.com/color-picker/
-https://www.funtrivia.com/en/Geography/Sweden-3858.html
-* for help with some of the questions. 
-http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000
-* for help using colors that helped with the site's accessibility. 
+https://www.google.com/search?q=80s+tv+shows&oq=80s+tv+shows+&aqs=chrome..69i57j0i512l9.6744j0j7&sourceid=chrome&ie=UTF-8
+q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000
+for help using colors that helped with the site's accessibility. 
 https://www.w3schools.com/css/css_align.asp
 https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 https://www.w3schools.com/howto/howto_js_topnav.asp
 https://www.sitepoint.com/community/t/why-wont-my-text-decoration-go-away/4674
 https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
 https://www.codegrepper.com/tpc/%27template+literal+syntax%27+is+only+available+in+es6+%28use+%27esversion%3A+6%27%29.
+for picture to the site
+https://www.pexels.com/photo/classic-yellow-tv-6976103/
+to make the picture smaller 
+https://tinypng.com/
