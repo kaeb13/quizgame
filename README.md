@@ -20,7 +20,8 @@ Below the introductory text, users will find a pixelated "Start the Quiz" button
 
 ### Login Page 
 
-<img width="450" alt="loginpagequiz" src="https://user-images.githubusercontent.com/117651816/229278787-2d3df244-3f9a-4bd5-aa39-424700fbacd2.png">
+<img width="648" alt="loginstartpage" src="https://user-images.githubusercontent.com/117651816/229280618-d2d4fef2-737d-4570-af95-d1e3d0311a40.png">
+
 
 <img width="410" alt="loginstartthequiz" src="https://user-images.githubusercontent.com/117651816/229278794-9dca7808-ef8a-4976-8479-baa37b2a3b06.png">
 
@@ -81,6 +82,24 @@ I've thoroughly tested the website to ensure that there are no unfixed bugs, and
 In addition to bug testing, I've also verified the website's cross-browser compatibility. The site has been tested and confirmed to work smoothly on various web browsers, including Google Chrome, Safari, and Firefox. This ensures that users on different platforms and devices can access and enjoy the website without encountering issues.
 
 By continuously testing for bugs and cross-browser compatibility, I aim to provide a reliable and enjoyable experience for all users, regardless of their choice of browser.
+
+## Accessibility and Responsiveness
+
+The 80s TV Series Quiz website has been designed with accessibility and responsiveness in mind, ensuring that users with different abilities and on various devices can easily access and navigate the site. Here are some key aspects of the website's accessibility and responsiveness:
+
+### Accessibility
+- The website uses high-contrast colors to enhance readability for users with visual impairments.
+- Text sizes and font choices have been carefully selected to improve readability for users with dyslexia or other reading difficulties.
+- The site's layout and navigation are designed to be user-friendly, allowing for easy access to information and features.
+- We have followed accessibility best practices to ensure that the site is compatible with screen readers and other assistive technologies.
+
+### Responsiveness
+- The site has been developed using responsive design principles, ensuring that it adapts seamlessly to different screen sizes and resolutions.
+- CSS media queries have been utilized to adjust the layout and design elements for various devices, such as smartphones, tablets, and desktop computers.
+- The site's navigation menu is designed to be responsive, offering a smooth and consistent experience across different devices.
+- Images and other visual elements have been optimized to load quickly and efficiently on different devices, maintaining high-quality visuals without compromising on performance.
+
+By focusing on accessibility and responsiveness, the 80s TV Series Quiz website aims to provide a pleasant and engaging experience for all users, regardless of their abilities or the device they are using.
 
 
 ## Deployment
