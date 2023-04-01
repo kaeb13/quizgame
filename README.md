@@ -18,10 +18,15 @@ The homepage provides an engaging introduction to the 80s TV Series Quiz. It fea
 
 Below the introductory text, users will find a pixelated "Start the Quiz" button that invites them to dive into the world of 80s TV series. Clicking on the button will take users directly to the quiz page, where they can begin testing their knowledge of classic television series from this iconic decade.
 
-### Login Page 
+### Login Page
+
+The login page of the 80s TV Series Quiz features a simple input box that allows users to enter their name before starting the game. The design focuses on a user-friendly experience, making it easy for users to quickly join the game and start testing their knowledge of classic 80s TV series.
+
+After entering their name, users are redirected to a "Start the Game" button. By clicking this button, users are taken to the quiz page, where they can begin answering questions about their favorite 80s TV shows.
+
+On the quiz page, the user's name is displayed next to the navigation bar, providing a personalized touch and a sense of immersion for the player. This also helps to keep track of the user's progress throughout the game.
 
 <img width="648" alt="loginstartpage" src="https://user-images.githubusercontent.com/117651816/229280618-d2d4fef2-737d-4570-af95-d1e3d0311a40.png">
-
 
 <img width="410" alt="loginstartthequiz" src="https://user-images.githubusercontent.com/117651816/229278794-9dca7808-ef8a-4976-8479-baa37b2a3b06.png">
 
